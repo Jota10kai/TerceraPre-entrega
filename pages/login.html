@@ -60,16 +60,16 @@
     <!-- login -->
     <div>
         <!-- pido usuario y contraseña -->
-        <form action="login ">
-            <div>
+        <form action="login " method="POST" class="formulario">
+            <div class="mb-3">
                 <label for="usuario">Usuario</label>
-                <input type="text" id="usuario">
+                <input type="text" class="form-control" id="usuario">
             </div>
             <div>
                 <label for="contraseña">Contraseña</label>
-                <input type="password" id="contraseña">
+                <input type="password" class="form-control" id="contraseña">
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
-            <input type="submit" value="Enviar">
 
             
         </form>
